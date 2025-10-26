@@ -12,7 +12,7 @@ Our predictions match PhishTank’s ground-truth verdicts with high confidence.
 <img width="1600" height="194" alt="image" src="https://github.com/user-attachments/assets/d510433a-3d82-4646-8a34-efdf93722c87" />
 <img width="542" height="216" alt="image" src="https://github.com/user-attachments/assets/933b85a7-f53c-4a7f-871b-c1514d1e2adb" />
 <img width="570" height="216" alt="image" src="https://github.com/user-attachments/assets/702c4999-dad2-495a-b7ef-9afc7e2945a1" />
-<img width="678" height="602" alt="image" src="https://github.com/user-attachments/assets/e0bac9d0-6cd0-4db9-a783-d2e89095e2cc" />
+<img width="686" height="111" alt="image" src="https://github.com/user-attachments/assets/e30f2008-99bb-42f3-bcd0-959d43988498" />
 
 🟢 Legitimate websites were classified correctly.  
 🔴 Phishing websites were flagged with near-perfect confidence.
@@ -22,20 +22,18 @@ Our predictions match PhishTank’s ground-truth verdicts with high confidence.
 ###   Phonetic & Hyphenated Phishing
 The model successfully detected *lookalike domains* (phonetic and hyphenated variants) as phishing attempts.
 
+<img width="678" height="602" alt="image" src="https://github.com/user-attachments/assets/e0bac9d0-6cd0-4db9-a783-d2e89095e2cc" />
 
-<img width="540" height="1158" alt="image" src="https://github.com/user-attachments/assets/d65cb720-6db8-4868-8ebb-38aa1c751c73" />
-
-
-Both variants (`easycash.id`, `easy-cash.id`) are caught as phishing.
+Both variants (`easycash.id`, `easy-cash.id`) are caught as phishing and the first url is the legitimate one.
 
 
 ### SMS Phishing Example
 
-<img width="638" height="216" alt="image" src="https://github.com/user-attachments/assets/18f206a2-a7ec-4cd7-89f6-fc6c276247e7" />
+<img width="540" height="1158" alt="image" src="https://github.com/user-attachments/assets/d65cb720-6db8-4868-8ebb-38aa1c751c73" />
 
 
 Model prediction:
-![Uploading image.png…]()
+<img width="638" height="216" alt="image" src="https://github.com/user-attachments/assets/a1f1b08d-7ca2-45e9-bc4d-6ab893361c81" />
 
 
 The model correctly flagged this SMS phishing attempt with **near-absolute certainty**.
