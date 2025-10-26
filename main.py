@@ -47,7 +47,7 @@ try:
     trusted_domains = {url.lower().strip().replace('www.', '') for url in df_whitelist['url']}
     print(f"Whitelist loaded with {len(trusted_domains)} trusted domains.")
 except FileNotFoundError:
-    print("⚠️ Warning: 'WhiteList.csv' not found. Running without a whitelist.")
+    print("Warning: 'WhiteList.csv' not found. Running without a whitelist.")
     trusted_domains = set()
 
 shared_platforms = {
