@@ -2,3 +2,4 @@ WhiteList.csv
 combined_dataset_simple.csv
 lightgbm_advanced_model_published.pkl
 lightgbm_advanced_results.csv
+.gitignore
